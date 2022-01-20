@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project FarCry3</title>          <!-- simplemente necesito probar los comentarios -->
+</head>
+<body>
+
+<h1><u>El Universo FarCry3</u></h1>
+
+<p>Bienvenido, acabas de entrar a una página que contiene informacion sobre el majestuoso videojuego <i><b>FarCry3.</b></i><br>
+Pero antes es necesario que rellenes el siguiente formulario:</p>
+
+<h2>Cuestionario de Usuario:</h2>
+
+<table>
+ <tr>
+	<th>Nombre:</th>
+	<th>Apellidos:</th>
+ </tr>
+ <tr>
+	<td><form><input type="text" id="fname"></form></td>
+	<td><form><input type="text" id="lname"></form></td>
+ </tr>
+ <tr>
+	<th>Genero:</th>
+	<th>Edad:</th>
+ </tr>
+ <tr>
+	 <td><form><input type="checkbox" id="gender" <label>Hombre</label>
+	 <input type="checkbox" id="gender" <label>Mujer</label></form></td>
+	 
+	 <td><form><input type="text" id="age"></form></td>
+ </tr>
+  <tr>
+	<th><br></th>
+ </tr>
+  <tr>
+	<th><bold>Fecha de nacimiento:</bold></th>
+	<td><form><input type="date" id="date"><br></form></td>
+ </tr>
+   <tr>
+	<th><br></th>
+ </tr>
+</table>
+<p><label>¿Que es lo que mas te gusta del juego?</label><br>
+   <textarea name="message" rows="5" cols="30" ></textarea></p>
+   
+<p><form><input type="Submit"</form><br><br>
+	<b>Una vez hayas enviado tus datos pulsa el siguiente enlace:</b> <a href="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5w6YXU8vRPgzXKLoeTGzO5/00a383c245ea47bbe1dfc33363999e4a/media7.jpg">pagina2</a></a></p><br>
+
+
+<p>Desarrollado por <i><b>Hoxuro</b>.</i></p>
+
+
+</body>
+
+</html>
