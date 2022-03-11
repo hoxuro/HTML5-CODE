@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/*GENERAL STYLES*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #212529;
+}
+
+.accordion {
+  width: 700px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.items {
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
+  border-radius: 5px 5px 0 0;
+}
+
+.open {
+  border-radius: 5px 5px 0 0;
+  border-top: 5px solid #f03e3e;
+}
+
+.open .hidden-box {
+  display: block;
+}
+
+.open .number {
+  color: #f03e3e;
+}
+
+.open .text {
+  color: #f03e3e;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ced4da;
+}
+
+.text {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.icon {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  font-weight: 500;
+  color: #f03e3e;
+}
+
+.hidden-box {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.hidden-box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  margin-left: 30px;
+  color: #868e96;
+}
+
+/*GRID LAYOUT*/
+
+.items {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 10px;
+  row-gap: 20px;
+  align-items: center;
+}
+
+.hidden-box {
+  grid-column: 2;
+}
